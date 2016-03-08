@@ -1,3 +1,7 @@
+.content {
+margin-top:-30px !important;
+}
+
 * {
     padding:0px;
     margin:0px;
@@ -8,13 +12,8 @@
     overflow:hidden;
 }
 
-
-/*
-menú animado
-*/
-
 .my-header{
-    width:920px;
+    width:820px;
     margin:0 auto;
 }
 
@@ -28,6 +27,7 @@ menú animado
 
 .imagen{
     height: 240px;
+    border-width: 0px;
     
 }
 
@@ -55,11 +55,6 @@ menú animado
 .estrecha{
     width:180px;
 }
-
-/*
-
-*/
-
 
 
 footer{
