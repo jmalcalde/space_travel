@@ -1,0 +1,111 @@
+
+
+/*Reseteo de la página*/
+* {margin: 0; padding: 0;}
+
+#container {
+    width:100%;
+}
+
+
+/*
+MENÚ
+*/
+
+#acordeon {
+    margin-top: 0px;
+    background: #056a63;
+    width: 250px;
+    /*margin: 100px auto 0 auto; */
+    margin: 1px ;
+    color: white;
+
+    box-shadow: 
+        0 5px 15px 1px rgb(0,0,0,0.6),
+        0 0 200px 1px rgba(255,255,255,0.5);
+
+    
+}
+
+#acordeon ul{
+
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+
+/*estilos de menu principal*/
+#acordeon h3 {
+	font-size: 12px;
+	line-height: 34px;
+	padding: 0 10px;
+    margin: 0px;
+    cursor: pointer;
+
+    background: #02382d;
+    background: linear-gradient(#005041, #022211);
+   
+	
+}
+#acordeon h3 span {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* eliminamos puntos a las opciones de menu */
+#acordeon li {
+    list-style-type: none;
+}
+
+/*aspecto de los enlaces*/
+#acordeon ul ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 27px;
+
+
+    display: block;
+    padding: 0 15px;
+    transition: all 0.15s;
+	
+}
+
+#acordeon ul ul li a:hover{
+    background: #013636;
+    border-left: 5px solid lightgreen;
+    transition: all 0.55s;
+    
+}
+
+#acordeon ul ul {
+    display: none;
+}
+
+#acordeon li.active ul {
+    display: block;
+}
+
+
+/*
+
+*/
+
+footer {
+    width:100%;
+    padding-top:2px;
+    padding-bottom:2px;
+    background-color:#1a313b;
+    color:#fff;
+    font-size:12px;
+    text-align:right;
+    position:absolute;
+    bottom:0px;
+}
+
+p {
+    padding-right:20px;
+}
+
+

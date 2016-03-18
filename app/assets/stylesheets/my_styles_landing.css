@@ -1,0 +1,70 @@
+.content {
+margin-top:-30px !important;
+}
+
+* {
+    padding:0px;
+    margin:0px;
+}
+
+#container {
+    width:100%;
+    overflow:hidden;
+}
+
+.my-header{
+    width:820px;
+    margin:0 auto;
+}
+
+
+.my-header li{
+    position:relative;
+    display:block;
+    float:left;
+    overflow: hidden;
+}
+
+.imagen{
+    height: 240px;
+    border-width: 0px;
+    
+}
+
+.tapa {
+    position: absolute;
+    top: 0px;
+    
+    display:block;
+    background-color:rgba(0, 0, 0, 0.65);
+    height:240px;
+    
+    padding:10px;
+    
+    color:#fff;
+    font-size:12px;
+    text-align:center;
+
+    visibility: hidden;
+    
+}
+
+.ancha{
+    width:320px;
+}
+.estrecha{
+    width:180px;
+}
+
+
+footer{
+    width:100%;
+    text-align:center;
+    background-color:#3b3c4e;
+    color:#fff;
+    height:100px;
+    line-height:80px;
+    position:fixed;
+    bottom:0px;
+}
+
